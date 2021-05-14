@@ -1,6 +1,6 @@
-# myinvoices
+# My Invoices
 
-A new Flutter project.
+My invoices is an open source project, where the user can manage their invoices on their mobile device, through annotation and photography.
 
 ## Getting Started
 
