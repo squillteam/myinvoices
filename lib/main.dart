@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myinvoices/app/pages/home/home.dart';
+import 'package:myinvoices/app/pages/picture/picture.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My Invoices',
-      home: Container(),
+      initialRoute: HomePage.routeName,
+      routes: {
+        HomePage.routeName: (BuildContext context) => HomePage(),
+        PicturePage.routeName: (BuildContext context) => PicturePage()
+      },
     );
   }
 }
